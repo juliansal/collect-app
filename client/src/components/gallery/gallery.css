@@ -1,0 +1,32 @@
+
+/**** Page ****/
+
+.profile_area {
+	min-height: 500px;
+}
+
+.profile {
+	display: inline-block;	
+}
+
+.profile_img {
+ 	float: left;
+ 	width: 531px;
+}
+
+.profile_text {
+	width: 399px;
+	height: 367.1px;
+	background-color: rgba(35, 181, 116, 0.5);
+	padding: 15px;
+	box-shadow: 0px 0px 3px #113f2a;
+
+}
+
+.text_label {
+	font-weight: 700;
+}
+
+li {
+    list-style-type: none;
+}
