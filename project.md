@@ -1,6 +1,6 @@
 # Collect App
 
-Collect will be a simple photo gallery (ex Instagram or Pintrest) where the user can save images and data on collectible itme. The user can tag items that she intends on adding to the collection or tag items that are already a part of her collection.
+Collect will be a simple photo gallery (like Instagram or Pintrest) where the user can save images and data on collectible items. The user can tag items that she intends on adding to the collection or tag items that are already a part of her collection.
 
 ## User Stories
 As a user, I want to view all the images of my collection gallery.
