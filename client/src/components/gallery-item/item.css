@@ -5,3 +5,17 @@
     padding-left: 10px;
     margin-bottom: -2px;
 }
+
+.backBtn {
+    text-align: right;
+}
+
+.backBtn a {
+    border: 1px solid #821717;
+    padding: 3px;
+    background-color: #821717;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #821717;
+}

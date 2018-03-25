@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './item.css';
 
 class Item extends Component {
@@ -56,7 +57,10 @@ class Item extends Component {
     render() {
         return (
             <div>
-                <h1 className="header">Welcome to My Small Pop! Collection</h1>
+				<div className="backBtn">
+					<Link to={`/`}>Back</Link>
+				</div>
+                <h1 className="header">{ this.state.galleryItem.item_name }</h1>
 		        <div className="profile_area">
 					<div className="profile profile_img">
 						<img src={ this.getFirstImage() } />
