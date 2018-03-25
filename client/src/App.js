@@ -17,6 +17,10 @@ class App extends Component {
 					<Route exact path="/" component={Gallery}/>
                 	<Route path="/item/:name" component={Item}/>
                 </Switch>
+				<div class="footer">
+					<p class="col">Copyright 2018</p>
+					<p class="col">Design by <a target="_blank" href="https://github.com/juliansal">Julio Salguero</a></p>
+				</div>
 			</div>
 		);
 	}
