@@ -1,3 +1,21 @@
+.profile_area {
+	min-height: 500px;
+}
+
+.profile {
+	display: inline-block;	
+}
+
+.profile_text {
+	background-color: rgba(35, 181, 116, 0.5);
+	box-shadow: 0px 0px 3px #113f2a;
+	height: 599.6px;
+}
+
+.profile_text p {
+    margin: 10px 5px;
+}
+
 .have-want-icon {
     max-width: 80px;
     box-shadow: none;

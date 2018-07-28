@@ -5,13 +5,16 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "start:db": "net start MongoDB"
   },
   "author": "Julian Salguero",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "cors": "^2.8.4",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15"
   },
   "devDependencies": {
     "nodemon": "^1.17.2"

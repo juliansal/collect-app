@@ -61,11 +61,11 @@ class Item extends Component {
 					<Link to={`/`}>Back</Link>
 				</div>
                 <h1 className="header">{ this.state.galleryItem.item_name }</h1>
-		        <div className="profile_area">
-					<div className="profile profile_img">
+		        <div className="profile_area row">
+					<div className="profile profile_img column">
 						<img src={ this.getFirstImage() } />
 					</div>
-					<div className="profile profile_text">
+					<div className="profile profile_text column">
 						<p><span className="text_label">Name: </span>{ this.state.galleryItem.item_name }</p>
 						<p><span className="text_label">Have it: </span><img className="have-want-icon" src={ this.getWantHave() } /></p>
 						<p><span className="text_label">Item model #: </span>{ this.state.galleryItem.id }</p>
@@ -76,22 +76,5 @@ class Item extends Component {
         );
     }
 }
-
-// const Item = (props) => {
-//     const galleryItem = fetch('/api/gallery')
-//         .then(res => res.json())
-//         .then(gallery => {
-//             const galleryItem = gallery.find(item => (item.item_name == props.name));
-//             //this.setState({galleryItem}, () => console.log('Customer fetched...', galleryItem));
-//     });
-
-//     return (
-//         <div className="container">
-//                 <h2>Gallery Item</h2>
-//                 { console.log(this.state.galleryItem.id) }
-//                 <h2>{ this.state.galleryItem.item_name }</h2>
-//         </div>
-//     )
-// }
 
 export default Item;

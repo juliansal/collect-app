@@ -10,3 +10,15 @@ As a user, I want to click on and image and be taken to the image's profile page
 As a user, I want to tag a item if I 'have it' or 'want it'.
 
 As a user, I want to read a small description of my item.
+
+As an admin, I want to perform CRUD operations from a dashboard.
+
+## Dashboard
+- The dashboard area will list out all items in the collection. 
+- Each item will have edit and delete button. 
+- There will be an add button near the top of the page.
+- The add and edit buttons will redirect to pages with forms for adding items to the collection.
+- Dashboard views:
+    - /dashboard (show)
+    - /dashboard/add (create)
+    - /dashboard/edit/:id (update)
