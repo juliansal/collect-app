@@ -1,0 +1,18 @@
+language: node_js
+node_js: 
+  - 10.15.0
+cache: npm
+
+install: 
+  - cd client && npm install
+  # - cd ../server && npm install
+
+script:
+  - npm run build
+  # - cd ../server && npm run build
+
+deploy:
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master
